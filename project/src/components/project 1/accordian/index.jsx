@@ -24,7 +24,6 @@ export default function Accordion() {
 
     return (
         <div className="wrapper">
-
             <div className="accordion">
             <button onClick={() => setEnableMultiple(!enableMultiple)}>
                 {enableMultiple ? "Switch to Single Select" : "Switch to Multi Select"}
