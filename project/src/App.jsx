@@ -1,6 +1,7 @@
 import './App.css'
-import QRCodeGenerator from './components/project 7/qr-code'
-import LightDarkMode from './components/project 8/themes'
+// import QRCodeGenerator from './components/project 7/qr-code'
+// import LightDarkMode from './components/project 8/themes'
+import ScrollIndicator from './components/project 9/scroll-indicator'
 // import StarRating from './components/project 3/rating'
 // import Accordion from './components/project 1/accordian'
 // import RandomColor from './components/project 2/randomcolor'
@@ -23,7 +24,8 @@ function App() {
       />  */}
       {/* <LoadMoreData/> */}
       {/* <QRCodeGenerator/> */}
-      <LightDarkMode/>
+      {/* <LightDarkMode/> */}
+      <ScrollIndicator url={'https://dummyjson.com/products'}/>
     </div>
       
     </>
